@@ -1,12 +1,12 @@
 {
-  "name": "saml",
+  "name": "@d2l/saml",
   "version": "0.12.4",
   "devDependencies": {
     "mocha": "*",
     "should": "~1.2.1"
   },
   "main": "./lib",
-  "repository": "https://github.com/auth0/node-saml",
+  "repository": "https://github.com/Brightspace/node-saml",
   "keywords": [
     "saml",
     "authentication"
@@ -18,7 +18,7 @@
     "moment": "2.15.2",
     "valid-url": "~1.0.9",
     "xml-crypto": "~0.10.1",
-    "xml-encryption": "0.11.0",
+    "@d2l/xml-encryption": "0.11.2",
     "xml-name-validator": "~2.0.1",
     "xmldom": "=0.1.15",
     "xpath": "0.0.5"

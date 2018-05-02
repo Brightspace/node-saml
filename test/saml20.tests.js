@@ -4,7 +4,7 @@ var assert = require('assert'),
     moment = require('moment'),
     should = require('should'),
     xmldom = require('xmldom'),
-    xmlenc = require('xml-encryption'),
+    xmlenc = require('@d2l/xml-encryption'),
     saml = require('../lib/saml20');
 
 describe('saml 2.0', function () {
